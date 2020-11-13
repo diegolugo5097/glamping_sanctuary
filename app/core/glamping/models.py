@@ -1,6 +1,11 @@
 from django.db import models
 from ckeditor.fields import RichTextField
 
+"""
+    These models will allow me the handling and all the management of the
+    glamping and the state, once this last one is reserved.
+"""
+
 
 # Model representing options status
 class Status(models.Model):
@@ -30,6 +35,3 @@ class Glamping(models.Model):
         verbose_name = 'Glamping',
         verbose_name_plural = 'Glamping'
         ordering = ['id']
-
-
-
