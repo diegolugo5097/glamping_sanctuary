@@ -1,3 +1,6 @@
 from django.db import models
 
-# Create your models here.
+
+# Model representing the company's reserve.
+class Booking(models.Model):
+    pass
